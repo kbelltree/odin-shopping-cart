@@ -1,0 +1,15 @@
+.logo {
+  grid-area: logo;
+  justify-self: center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 36px;
+  width: 66px;
+}
+
+@media (min-width: 900px) {
+  .logo {
+    width: 106px;
+    height: auto;
+  }
+}

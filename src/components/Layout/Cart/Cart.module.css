@@ -1,0 +1,30 @@
+.cart {
+  padding-top: 5.125em;
+  padding-bottom: 5em;
+}
+
+.heading {
+  font-size: 1.25rem;
+  color: var(--darker-accent-color);
+  padding: 1.25em 0 3em 0;
+}
+
+.listLayout {
+  border-bottom: 1px solid var(--text-color);
+  padding-bottom: 1em;
+}
+
+.btnCheckout {
+  width: 40%;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5em 0;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  .cart {
+    max-width: 800px;
+  }
+}

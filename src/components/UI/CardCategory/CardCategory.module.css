@@ -1,0 +1,54 @@
+.title {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 1em;
+  letter-spacing: 0.125em;
+}
+
+.placeholder {
+  margin: 0 auto;
+  background-color: lightgray;
+  width: 100%;
+  max-width: 20em;
+  height: auto;
+  aspect-ratio: 1/1;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.placeholder + .placeholder {
+  margin-top: 1.25em;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnLink {
+  width: 5em;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .placeholder {
+    max-width: 420px;
+  }
+
+  .placeholder + .placeholder {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.layout {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  grid-template-areas:
+    'menu logo cart'
+    'nav nav nav';
+}
+
+@media (min-width: 900px) {
+  .layout {
+    grid-template-areas: 'logo nav cart';
+  }
+}

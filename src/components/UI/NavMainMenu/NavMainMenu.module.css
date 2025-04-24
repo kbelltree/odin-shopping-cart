@@ -1,0 +1,38 @@
+/* Collapse menu on click */
+.mainMenu[data-displayed='false'] {
+  display: none;
+}
+
+.link {
+  display: block;
+  padding: 0.5em 0;
+}
+
+.menuList {
+  grid-area: nav;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .menuList {
+    grid-area: nav;
+    text-align: left;
+    transform: none;
+  }
+
+  .mainMenu {
+    margin-left: 3em;
+    display: flex;
+    gap: 2em;
+  }
+
+  /* deactivate the conditional switch */
+  .mainMenu[data-displayed='false'] {
+    display: flex;
+  }
+
+  .link {
+    display: inline;
+    font-size: 1.25rem;
+  }
+}

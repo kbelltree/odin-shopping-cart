@@ -1,0 +1,27 @@
+.placeholder {
+  min-width: 7.5em;
+  height: auto;
+  aspect-ratio: 9/16;
+  overflow: hidden;
+  padding: 1em;
+  border: solid 1.25px var(--darker-background);
+}
+
+.imgLayout {
+  object-fit: contain;
+}
+
+.title {
+  font-size: 1rem;
+  padding-top: 0.5em;
+}
+
+@media (min-width: 900px) {
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .text {
+    font-size: 1.25rem;
+  }
+}

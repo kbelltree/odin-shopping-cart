@@ -1,0 +1,59 @@
+.spacer {
+  padding-top: 3.25em;
+}
+
+.placeholder {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 1em;
+  border: solid 10px var(--darker-background);
+}
+
+.imgLayout {
+  object-fit: contain;
+}
+
+.text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 1.25rem;
+  margin-top: 1.25em;
+}
+
+.price {
+  margin-top: 0.5em;
+}
+
+.description {
+  margin: 1.5em 0 1.75em 0;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 900px) {
+  .spacer {
+    padding: 6.25em 0 3em 0;
+  }
+
+  .heading {
+    font-size: 1.75rem;
+    overflow: hidden;
+  }
+
+  .placeholder {
+    border: solid 1.25px var(--darker-background);
+  }
+
+  .placeholder,
+  .text {
+    flex: 1 1 50%;
+    width: auto;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}

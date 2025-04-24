@@ -1,0 +1,14 @@
+.list {
+  padding-bottom: 0.5em;
+}
+
+.link {
+  font-size: 0.75rem;
+  display: inline-block;
+}
+
+@media (min-width: 900px) {
+  .link {
+    font-size: 1rem;
+  }
+}

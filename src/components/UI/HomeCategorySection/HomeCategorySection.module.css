@@ -1,0 +1,35 @@
+.category {
+  padding: 2em 0;
+}
+
+.heading {
+  font-size: 1.25rem;
+  color: var(--darker-accent-color);
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.imgClothing {
+  background-image: url(../../../assets/images/pexels-a-darmel-8989534-min.webp);
+}
+
+.imgJewelry {
+  background-image: url(../../../assets/images/pexels-ron-lach-9489731-min.webp);
+}
+
+@media (min-width: 900px) {
+  .category {
+    padding: 3.375em 0;
+  }
+
+  .heading {
+    font-size: 1.75rem;
+    margin-bottom: 1.5em;
+  }
+
+  .horizontalLayout {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+  }
+}

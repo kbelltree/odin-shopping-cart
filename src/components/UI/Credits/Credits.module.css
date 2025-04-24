@@ -1,0 +1,14 @@
+.format {
+  font-size: 0.75rem;
+  margin-top: 4.25em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+@media (min-width: 900px) {
+  .format {
+    font-size: 0.875rem;
+  }
+}

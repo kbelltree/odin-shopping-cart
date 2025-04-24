@@ -1,0 +1,23 @@
+.linkCart {
+  grid-area: cart;
+  width: auto;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.link {
+  display: inline-flex;
+}
+
+@media (min-width: 900px) {
+  .svgSize {
+    width: 28px;
+    height: auto;
+  }
+
+  .text {
+    font-size: 1.125rem;
+  }
+}

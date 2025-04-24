@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Sweater Lorem Ipsum",
+    "price": 100,
+    "description": "Aliquam consequat dignissim sem viverra auctor. Nulla mattis at odio ac viverra. Morbi sit amet scelerisque diam. Phasellus ultricies dolor arcu, sed accumsan eros bibendum mollis.",
+    "category": "women's clothing",
+    "image": "https://placehold.co/400",
+    "rating": {
+      "rate": 3,
+      "count": 98
+    }
+  },
+  {
+    "id": 2,
+    "title": "Tank-Top Etiam suscipit Leo Sed Sem Laoreet",
+    "price": 25,
+    "description": "Vivamus a dapibus mi. Suspendisse potenti. Nullam eu lectus quis justo tincidunt interdum.",
+    "category": "women's clothing",
+    "image": "https://placehold.co/400",
+    "rating": {
+      "rate": 4,
+      "count": 120
+    }
+  },
+  {
+    "id": 3,
+    "title": "Skirt Integer Tristique Tempor 2stibulum",
+    "price": 59.5,
+    "description": "Phasellus tristique neque sit amet elit aliquam placerat. Sed mauris felis, tempus ut pulvinar a, venenatis et ante. Phasellus condimentum augue enim, eget ornare erat auctor facilisis. Fusce iaculis mauris elit, et semper quam sollicitudin vitae.",
+    "category": "women's clothing",
+    "image": "https://placehold.co/400",
+    "rating": {
+      "rate": 3.8,
+      "count": 90
+    }
+  },
+  {
+    "id": 4,
+    "title": "Ring Lorem Ipsum",
+    "price": 123,
+    "description": "Aliquam consequat dignissim sem viverra auctor. Nulla mattis at odio ac viverra. Morbi sit amet scelerisque diam. Phasellus ultricies dolor arcu, sed accumsan eros bibendum mollis.",
+    "category": "jewelery",
+    "image": "https://placehold.co/400",
+    "rating": {
+      "rate": 5,
+      "count": 98
+    }
+  },
+  {
+    "id": 5,
+    "title": "Necklace Etiam Suscipit Leo",
+    "price": 250,
+    "description": "Vivamus a dapibus mi. Suspendisse potenti. Nullam eu lectus quis justo tincidunt interdum.",
+    "category": "jewelery",
+    "image": "https://placehold.co/400",
+    "rating": {
+      "rate": 4,
+      "count": 120
+    }
+  },
+  {
+    "id": 6,
+    "title": "Bracelet Integer Tristique Tempor",
+    "price": 595,
+    "description": "Phasellus tristique neque sit amet elit aliquam placerat. Sed mauris felis, tempus ut pulvinar a, venenatis et ante. Phasellus condimentum augue enim, eget ornare erat auctor facilisis. Fusce iaculis mauris elit, et semper quam sollicitudin vitae.",
+    "category": "jewelery",
+    "image": "https://placehold.co/400",
+    "rating": {
+      "rate": 3.8,
+      "count": 90
+    }
+  },
+  {
+    "id": 7,
+    "title": "Camera Integer Tristique Tempor",
+    "price": 800,
+    "description": "Phasellus tristique neque sit amet elit aliquam placerat. Sed mauris felis, tempus ut pulvinar a, venenatis et ante. Phasellus condimentum augue enim, eget ornare erat auctor facilisis. Fusce iaculis mauris elit, et semper quam sollicitudin vitae.",
+    "category": "electronics",
+    "image": "https://placehold.co/400",
+    "rating": {
+      "rate": 3.8,
+      "count": 90
+    }
+  },
+  {
+    "id": 8,
+    "title": "Pants Lorem Ipsum",
+    "price": 120,
+    "description": "Aliquam consequat dignissim sem viverra auctor. Nulla mattis at odio ac viverra. Morbi sit amet scelerisque diam. Phasellus ultricies dolor arcu, sed accumsan eros bibendum mollis.",
+    "category": "men's clothing",
+    "image": "https://placehold.co/400",
+    "rating": {
+      "rate": 3,
+      "count": 98
+    }
+  }
+]
